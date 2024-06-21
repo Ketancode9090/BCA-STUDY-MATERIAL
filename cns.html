@@ -11,9 +11,10 @@
 </head>
 
 <body>
+     <div class="watermark">Developed by Ketan Kumar</div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="imgs/download.jpg" alt="" style="max-width: 60px;"></a>
+            <a class="navbar-brand" href="#"><img src="download.jpg" alt="" style="max-width: 60px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -127,7 +128,33 @@
             </button>
         </a>
     </div>
-   
+      <div class="form-container">
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+          <div class="form-group">
+            <label for="email">Full Name</label>
+            
+            <input type="hidden" name="access_key" value="48700ea8-6176-4674-a06c-6c45890b3874">
+                        
+            <input  placeholder="Write here" required="email" name="email" id="email" type="text">
+          </div>
+          <div class="form-group">
+            <label for="textarea">Write Your feedback about website.</label>
+            <textarea  required="" cols="50" rows="10" id="textarea" name="textarea" placeholder="Write your honest feedback about website....."></textarea>
+          </div>
+          <button type="submit" class="form-submit-btn">Submit</button>
+        </form>
+      </div>
+   <footer>
+        <div class="credits">
+            <p>Developed by Ketan Kumar</p>
+            <p>Credits to:</p>
+            <ul>
+                <li>Language Used : HTMl & CSS</li>
+                <li>Framework Used : Bootstrap</li>
+                <li>PDF Edit by : Ketan Kumar , Harsh Bansal</li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
